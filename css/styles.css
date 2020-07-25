@@ -1,7 +1,17 @@
-#landing-page{
-    background-image: url(../assets/backgrounds/h_img.jpg);
+.jumbotron{
+    background-image: url("../assets/backgrounds/h_img.jpg");
     background-position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
+    align-content: center;
+}
+#landing-page {
+    margin-top: 15vh;
+}
+
+
+.image-1{
+    margin-top: 30px;
+    color:white;
 }
