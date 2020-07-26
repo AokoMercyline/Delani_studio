@@ -15,3 +15,10 @@ $(document).ready(function(){
         $("#image-2").toggle();
     });
 });
+
+$(document).ready(function(){
+    $(".clickable2").click(function(){
+        $("#para-3").toggle();
+        $("#image-3").toggle();
+    });
+});
