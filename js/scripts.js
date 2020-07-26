@@ -9,3 +9,9 @@ $(document).ready(function(){
     
 });
 
+$(document).ready(function(){
+    $(".clickable1").click(function(){
+        $("#para-2").toggle();
+        $("#image-2").toggle();
+    });
+});
