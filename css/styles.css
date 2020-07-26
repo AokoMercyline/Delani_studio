@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     height: 90vh;
     align-content: center;
+    font-family: Gabriela, serif;
 }
 .image-1{
     margin-top: 30px;
@@ -22,6 +23,12 @@
 }
 .about-us{
     line-height: 40px;
+    font-family: Copse, serif;
+}
+.services{
+    font-family: Copse, serif;
+    font-size: 17px;
+
 }
 
 .form-group-1{
@@ -33,8 +40,12 @@
 .contact{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
-
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
 }
+
 ::placeholder, #text, #name, #email{
     background-color: transparent;
 }
@@ -47,7 +58,9 @@
     margin-top: 50px;
     margin-left: 100px;
 }
-
+.what-we-do{
+    font-family: Gabriela, serif;
+}
 .what-we-do p{
     display: none;
 }
