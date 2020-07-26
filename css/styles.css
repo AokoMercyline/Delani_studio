@@ -42,9 +42,25 @@
     background-size: cover;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
+.text{
+    width:340px;
+    height:217px;
+    background:#FFF;
+    opacity:0;
+}
+#pic:hover .text{
+    opacity:0.6;
+    text-align:justify;
+    color:#000000;
+    font-size:20px;
+    font-weight:700;
+    font-family:"Times New Roman", Times, serif;
+    padding:30px;
+}
+
+
 
 ::placeholder, #text, #name, #email{
     background-color: transparent;
