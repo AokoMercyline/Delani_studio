@@ -18,3 +18,19 @@ This project is a web application for Delani-studio that shows all details about
 * Bootstrap
 * jQuery
 * Javascript 
+
+## BDD
+
+
+## Known Bugs
+* 
+
+## Contact Information
+Woul you like to leave any comment? Please reach me here:
+* Phone:0708434156
+* Email:aokomercyline34@gmail.com
+* Youtube:Aoko Mercyline
+
+##  LICENSE
+* MIT license
+* Copyright (c) 2020 Aoko Mercyline
