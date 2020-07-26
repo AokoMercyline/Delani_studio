@@ -33,11 +33,26 @@
 .contact{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
-}
-.btn{
 
+}
+::placeholder, #text, #name, #email{
+    background-color: transparent;
 }
 
 .footer{
-    text-align: center;
+    margin-top: 50px;
+}
+
+.social-icons{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.what-we-do p{
+    display: none;
+}
+
+#btn{
+    width: 17vw;
+    background-color: teal;
 }
