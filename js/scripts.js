@@ -22,3 +22,16 @@ $(document).ready(function(){
         $("#image-3").toggle();
     });
 });
+
+
+if (name= "" && email==""){
+    alert('Your name & email is required');
+    return 0;
+}
+else if(name== ""){
+    alert('Enter your name to proceed');
+}
+else if(email== ""){
+    alert('Please enter valid email');
+}
+if((name== ""&& email!= "" && Text== "") || (name!))

@@ -44,22 +44,34 @@
     color: rgb(255, 255, 255);
     font-size: 20px;   
 }
-.text{
-    width:340px;
-    height:217px;
-    background:#FFF;
-    opacity:0;
-}
-#pic:hover .text{
-    opacity:0.6;
-    text-align:justify;
-    color:#000000;
-    font-size:20px;
-    font-weight:700;
-    font-family:"Times New Roman", Times, serif;
-    padding:30px;
-}
 
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: rgb(255, 255, 255, 0.455);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  #pic:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  .text {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
 
 
 ::placeholder, #text, #name, #email{
