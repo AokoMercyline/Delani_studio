@@ -45,16 +45,18 @@
     font-size: 20px;   
 }
 
-   /* .overlay {
+    .overlay {
     position: absolute;
-    bottom: 10%; 
+    bottom: 0; 
     left: 100%;
     right: 0;
-    background-color: rgb(255, 255, 255, 0.455);
-    /* overflow: hidden; */
-    /* width: 0;
-    height: 100%; */
-    /* transition: .5s ease;  */
+    background-color: rgb(255, 255, 255, 0.455); 
+    overflow: hidden; 
+     width: 0;
+    height: 100%; 
+    transition: 0.9s ease;
+    display: none; 
+    } 
   
   #pic:hover .overlay {
     width: 100%;
@@ -65,17 +67,15 @@
     color: red;
     font-size: 24px;
     font-weight: 400;
-    position: absolute;
-    top: 30px;
-    left: 33px;
-    -webkit-transform: translate(-50%, -50%); 
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap; 
-     display: none; 
-     border: 5px solid white;
-     padding-bottom: 40%;
-     padding-top: 5px;
+    position: absolute; 
+    left: 30px;
+    right: 40px;
+    border:2px solid white;
+    text-align: center;
+    /* margin-top: 10%;
+    margin-left: 1px;  */
+    padding: 10px;
+    margin: 2em auto; 
 
 
   }
