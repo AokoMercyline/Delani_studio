@@ -98,3 +98,17 @@
     width: 17vw;
     background-color: teal;
 }
+
+/* sample text PORTFOLIO */
+.Mercy{
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-top: -25%;
+}
+
+/* WHAT WE DO SAMPLE */
+.A1{
+    display: none;
+}
+

@@ -35,3 +35,28 @@ $(document).ready(function(){
 //     alert('Please enter valid email');
 // }
 // if((name== ""&& email!= "" && Text== "") || (name!))
+
+
+// sample jQuery
+$(document).ready(function(){
+    $(".Amwata").hover(function(){
+        $(".Mercy").show();
+        $(".Amwata img").css({
+            opacity:0.4
+        });
+    });
+    $(".Amwata").mouseleave(function(){
+        $(".Amwata img").css({
+            opacity:1
+        });
+        $(".Mercy").hide();
+    });
+
+    // SAMPLE WHAT WE DO
+
+    $(".A").click(function(){
+        $(".A1").toggle();
+        $(".A img").toggle();
+    });
+});
+
