@@ -45,7 +45,7 @@
     font-size: 20px;   
 }
 
-  /* .overlay {
+  .overlay {
     position: absolute;
     bottom: 0;
     left: 100%;
@@ -71,7 +71,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;
-  } */
+  }
 
 
 ::placeholder, #text, #name, #email{
@@ -90,20 +90,13 @@
 .what-we-do{
     font-family: Gabriela, serif;
 }
-.what-we-do p{
+#para1{
     display: none;
 }
 
 #btn{
     width: 17vw;
     background-color: teal;
-}
-
-.text{
-    display: none;
-    position: absolute;
-    width: 100%;
-    margin-top: -25%;
 }
 
 /* sample text PORTFOLIO */
