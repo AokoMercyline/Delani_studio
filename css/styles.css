@@ -55,7 +55,7 @@
     /* width: 0;
     height: 100%; */
     /* transition: .5s ease;  */
-  } */
+  
   #pic:hover .overlay {
     width: 100%;
     left: 0;
@@ -63,16 +63,20 @@
  
  .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
     color: red;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     position: absolute;
-    top: 50%;
-    left: 30%;
-    /* -webkit-transform: translate(-50%, -50%);
+    top: 30px;
+    left: 33px;
+    -webkit-transform: translate(-50%, -50%); 
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    white-space: nowrap; */
+    white-space: nowrap; 
      display: none; 
+     border: 5px solid white;
+     padding-bottom: 40%;
+     padding-top: 5px;
+
 
   }
 
