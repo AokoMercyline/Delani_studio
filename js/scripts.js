@@ -37,6 +37,16 @@ $(document).ready(function(){
 // if((name== ""&& email!= "" && Text== "") || (name!))
 
 
+
+// sample of submit
+function Mercyy(){
+    let username=document.getElementById("name").value;
+    let email=document.getElementById("email").value;
+    alert(username + " THANK YOU FOR CONTACTING US.WE HAVE GLADLY RECIEVED YOUR MESSAGE ");
+}
+
+
+
 // sample jQuery
 $(document).ready(function(){
     $(".Amwata").hover(function(){
@@ -54,9 +64,9 @@ $(document).ready(function(){
 
     // SAMPLE WHAT WE DO
 
-    $(".A").click(function(){
-        $(".A1").toggle();
-        $(".A img").toggle();
+    $(".design").click(function(){
+        $(".para-1").toggle();
+        $(".design img").toggle();
     });
 });
 
