@@ -23,20 +23,19 @@ $(document).ready(function(){
     });
 });
 
-
-// if (name= "" && email==""){
-//     alert('Your name & email is required');
-//     return 0;
-// }
-// else if(name== "")
-//     alert('Enter your name to proceed');
-// }
-// else if(email== ""){
-//     alert('Please enter valid email');
-// }
-// if((name== ""&& email!= "" && Text== "") || (name!))
-
-
+$(document).ready(function(){
+    $(".image").hover(function(){
+        $(".text").show();
+        $(".image img").css({
+            opacity:0.4
+        });
+    });
+    $(".image").mouseleave(function(){
+        $(".image img").css({
+            opacity:1
+        });
+        $(".text").hide();
+    });
 
 // sample of submit
 function Mercyy(){
@@ -66,7 +65,7 @@ $(document).ready(function(){
 
     $(".design").click(function(){
         $(".para-1").toggle();
-        $(".design img").toggle();
+        $(". img").toggle();
     });
 });
 
