@@ -5,7 +5,7 @@ Aoko Mercyline
 This project is a web application for Delani-studio that shows all details about the services it offers, information about the studio, portfolio section and a form that enables users to send their messages and concern to Delani studios at anytime.
 
 ## Live page
-
+* https://aokomercyline.github.io/Delani_studio/
 ## Installation/setup instruction
 * Open terminal (Ctrl +Alt+ T)
 * git clone https://github.com/AokoMercyline/Delani_studio.git
@@ -20,10 +20,10 @@ This project is a web application for Delani-studio that shows all details about
 * Javascript 
 
 ## BDD
-
+* Interested in colloborating?Please follow the rules and subcribes on my webpage https://aokomercyline.github.io/Delani_studio/.
 
 ## Known Bugs
-* 
+* None so far but incase of any,let me know
 
 ## Contact Information
 Woul you like to leave any comment? Please reach me here:
