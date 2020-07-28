@@ -145,26 +145,13 @@ $(document).ready(function(){
 
 });
 
-// function Mercyy(){
-//     let username=document.getElementById("name").value;
-//     let email=document.getElementById("email").value;
-//     alert(username + " THANK YOU FOR CONTACTING US.WE HAVE GLADLY RECIEVED YOUR MESSAGE ");
-// };
 
-$(document).ready(function(){
-    $('form#validity').submit(function(){
-        var name = $('input#name').val();
-        var email = $('input#email').val();
-        var message = $('input#textarea').val();
-        if (name && email){
-            alert (name + ', we have recived your message. Thank you for contacting us ');
-        }else {
-            alert('Please enter your name and email');
-        }
-    });
-});
-
-
-
+   $(document).ready(function(){
+       $("#form").submit(function(){
+        let username=$("#name").val();
+        let email=$("#email").val();
+        alert(username + " THANK YOU FOR CONTACTING US.WE HAVE GLADLY RECIEVED YOUR MESSAGE ");
+       })
+   })
 
 

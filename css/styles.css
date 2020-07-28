@@ -11,9 +11,7 @@
     margin-top: 30px;
     color:white;
 }
-/* .mouse-click {
-    bottom: ;
-} */
+
 .services{
     background-image: url(../assets/backgrounds/s_image.jpg);
     height: 40vh;
@@ -70,10 +68,8 @@
     position: absolute; 
     left: 30px;
     right: 40px;
-    border:2px solid white;
+    border:5px solid white;
     text-align: center;
-    /* margin-top: 10%;
-    margin-left: 1px;  */
     padding: 10px;
     margin: 2em auto; 
 
@@ -95,6 +91,9 @@
 }
 .what-we-do{
     font-family: Gabriela, serif;
+    margin-top: 80px;
+    margin-left: 30px;
+    text-align: center;
 }
 #para1{
     display: none;
@@ -117,16 +116,7 @@
     height: 200px;
 }
 
-/* sample text PORTFOLIO */
-.Mercy{
-    display: none;
-    position: absolute;
-    width: 100%;
-    margin-top: -25%;
-}
-
-/* WHAT WE DO SAMPLE */
-.A1{
-    display: none;
+h4{
+    padding-bottom: 50px;
 }
 
