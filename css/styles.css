@@ -32,9 +32,29 @@
 .form-group-1{
     padding-left: 150px;
 }
+
 .form-group{
     padding-top: 20px;
 }
+
+#mce-NAME, #mce-EMAIL{
+width: 23%;
+margin-bottom: 15px;
+padding: 5px;
+
+}
+#mce-NAME{
+    margin-right: 7px;
+}
+.form-group-1::-webkit-input-placeholder{
+    color: white;
+}
+
+input[type=text],input[type=email],textarea{
+    background: transparent;
+    color: white;
+}
+
 .contact{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
@@ -87,9 +107,10 @@
 }
 
 .social-icons{
-    margin-top: 50px;
-    margin-left: 100px;
+    margin-top: 30px;
     font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-left: 37%;
 }
 .what-we-do{
     font-family: Gabriela, serif;
@@ -97,13 +118,15 @@
     margin-left: 30px;
     text-align: center;
 }
-#para1{
+#para1,#para2,#para3{
     display: none;
 }
 
 #btn{
-    width: 17vw;
-    background-color: teal;
+    background-color:lightgrey;
+    margin-bottom: 15px;
+    padding: 7px 15px;
+
 }
 
 .portfolio{
