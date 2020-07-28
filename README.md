@@ -23,7 +23,8 @@ This project is a web application for Delani-studio that shows all details about
 * Interested in colloborating?Please follow the rules and subcribes on my webpage https://aokomercyline.github.io/Delani_studio/.
 
 ## Known Bugs
-* None so far but incase of any,let me know
+
+* Mailchimp is not well responsive and still working on it.
 
 ## Contact Information
 Woul you like to leave any comment? Please reach me here:
