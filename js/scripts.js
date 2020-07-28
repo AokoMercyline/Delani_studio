@@ -151,7 +151,7 @@ $(document).ready(function(){
         let username=$("#name").val();
         let email=$("#email").val();
         alert(username + " THANK YOU FOR CONTACTING US.WE HAVE GLADLY RECIEVED YOUR MESSAGE ");
-       })
-   })
+       });
+   });
 
 
